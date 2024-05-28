@@ -27,7 +27,7 @@
         <div class="todo">
             <h1 class="titulo"> Nuevo Hilo </h1>
             <div class="formulario">
-                <form action="../php/publicar_hilo.php" method="$_POST">
+                <form action="../php/publicar_hilo.php" method="POST">
                     <div>
                         <label for="" > Título: </label> <br>
                         <input type="text" placeholder="Escribe el título de tu hilo aquí" name="titulo" required class="contenido-formulario">
